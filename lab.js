@@ -16,7 +16,7 @@ if (lovesCode === true ) {
 */
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
-var brittanisAge = 34;
+var brittanisAge = 29;
 var amysBirthYear = 1991;
 var brittanisBirthYear = 1986;
 
@@ -27,7 +27,17 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+let olderPerson
 
+if (amysAge > brittanisAge) {
+  olderPerson = "Amy";
+  console.log(`${olderPerson} is older.`)
+} else if(brittanisAge > amysAge) {
+  olderPerson = "Brittani";
+  console.log(`${olderPerson} is older.`)
+} else {
+  console.log("Amy and Brittani are the same age!")
+}
 ////////// PROBLEM 3 //////////
 
 /*
