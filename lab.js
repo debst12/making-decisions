@@ -18,7 +18,7 @@ if (lovesCode === true ) {
 var amysAge = 29;
 var brittanisAge = 29;
 var amysBirthYear = 1991;
-var brittanisBirthYear = 1986;
+var brittanisBirthYear = 1991;
 
 ////////// PROBLEM 2 //////////
 
@@ -27,6 +27,7 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+/*
 let olderPerson
 
 if (amysAge > brittanisAge) {
@@ -37,7 +38,7 @@ if (amysAge > brittanisAge) {
   console.log(`${olderPerson} is older.`)
 } else {
   console.log("Amy and Brittani are the same age!")
-}
+} */
 ////////// PROBLEM 3 //////////
 
 /*
@@ -45,6 +46,11 @@ if (amysAge > brittanisAge) {
 */
 
 //CODE HERE
+if (amysBirthYear === brittanisBirthYear) {
+  console.log("Amy and Brittani were born in the same year.")
+} else {
+  console.log("Amy and Brittani were not born in the same year.")
+}
 
 ////////// PROBLEM 4 //////////
 
